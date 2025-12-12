@@ -1,11 +1,10 @@
-# 👕 PoloMax Product Performance Analysis
+# 👕 Polo Shirt  Product Performance Analysis
 
-![Project Status](https://img.shields.io/badge/Status-Complete-green)
 ![Tools](https://img.shields.io/badge/Tools-SQL_|_Excel_|_Data_Viz-blue)
 ![Focus](https://img.shields.io/badge/Focus-Product_Strategy-orange)
 
 ## 📖 Executive Summary
-During my internship as a Product Research Analyst, I analyzed **5,120 customer reviews and transactions** for PoloMax (a fashion e-commerce brand) to diagnose a critical business issue: a **48% product return rate**.
+I analyzed **5,120 customer reviews and transactions** for PoloMax (a fashion e-commerce brand) to diagnose a critical business issue: a **48% product return rate**.
 
 Using SQL for data extraction and exploratory data analysis (EDA), I identified that the high return rate was a systemic product quality issue rather than a logistics failure. My analysis provided data-backed recommendations to pause underperforming SKUs and double down on high-revenue variants.
 
@@ -53,6 +52,7 @@ GROUP BY Color;
 ### 2. Systemic vs. Localized Returns
 To determine if returns were due to logistics (e.g., a bad courier in Delhi) or the product itself, I analyzed return rates by location. The rate was consistent (~48%) across all cities, proving the issue was systemic (product fit/sizing).
 
+**SQL Snippet Used:**
 ```sql
 
 -- Return Rate by Location
